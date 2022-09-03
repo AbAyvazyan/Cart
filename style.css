@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background:rgb(207, 207, 207);
+    margin: 0;
+    position: relative;
+    z-index: 8;
+}
+
+#cart{
+    width: 7vh;
+    height: 7vh;
+    background: yellow;
+    border-radius:50%;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    cursor: pointer;
+}
+
+.cartImage{
+    width: 80%;
+}
+
+main{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:auto auto auto;
+    padding: 3vh 10px;
+}
+
+.grid-item {
+    background : rgb(207, 207, 207);
+    border-radius: 15px;
+    text-align: center;
+    padding: 2vh 0;
+    position: relative;
+}
+
+.grid-item p {
+    font-size: 20px;
+}
+
+.add-to-cart{
+    background: aqua;
+    width: 80%;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 30px;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.heart{
+    width: 50px;
+    position: absolute;
+    right: 15px;
+    top:15px;
+    cursor: pointer;
+}
+
+.heart:hover{
+    transform: scale(1.15);
+}
+
+.cover{
+    width: 100%;
+    height: 90vh;
+    position:absolute;
+    z-index: 7;
+    top: 10vh;
+    background: rgba(210,210,210,0.8);
+    display: none;
+}
+
+.for-cart{
+    width: 40vw;
+    height: 100%;
+    position: absolute;
+    background: red;
+    right: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.cart-items{
+    background:yellow;
+    width: 100%;
+    height: 70vh;
+    overflow: auto;
+}
+
+.buy{
+    background: green;
+    width: 50%;
+    height: 5vh;
+    line-height: 5vh;
+    text-align: center;
+    font-size: 30px;
+    margin: 5vh auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-item{
+    width: 90%;
+    height: 12vh;
+    padding: 10px 20px;
+    background: white;
+    margin: 1vh auto;
+    display: flex;
+    text-align: center;
+}
+.cart-image{
+    width: 5%;
+}
+
+.cart-content{
+    text-align: center;
+    width: 85%;
+    padding-top: 4vh;
+}
+
+.delete{
+    height: 6vh;
+    line-height: 6vh;
+    margin-top: 2vh;
+    background: red;
+    cursor: pointer;
+}
+
+#empty{
+    width: 100%;
+
+    padding-top: 30vh;
+    text-align: center;
+    font:50px red
+}
+
+.shadow{
+    width: 60vw;
+    height: 90vh;
+}
